@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Runtime", "Runtime", "{F38A0016-8683-4DD5-9FBE-37365FBC677D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Runtime\Core\Core.vcxproj", "{0CD56909-021A-4656-BAF7-C1183FD6DFF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{68582C54-2537-4ABF-A712-B84DD4CF4446}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSBuild", "MSBuild", "{9D250993-4A3A-45EB-85D0-375A60F83A50}"
+	ProjectSection(SolutionItems) = preProject
+		Build\MSBuild\Cpp.Default.props = Build\MSBuild\Cpp.Default.props
+		Build\MSBuild\Cpp.Derived.props = Build\MSBuild\Cpp.Derived.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programs", "Programs", "{6177B332-5941-4C28-A0A2-E09338D6D737}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CoreTest", "Programs\CoreTest\CoreTest.vcxproj", "{1D47BD78-BB1F-4F86-AF95-5FA67ABBADA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{7D3DA20A-614B-4B21-A656-661DE74DE6CF}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Visualizers\fbxsdk.natvis = Build\Visualizers\fbxsdk.natvis
+		Build\Visualizers\XE.natvis = Build\Visualizers\XE.natvis
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CD56909-021A-4656-BAF7-C1183FD6DFF8}.Debug|x64.ActiveCfg = Debug|x64
+		{0CD56909-021A-4656-BAF7-C1183FD6DFF8}.Debug|x64.Build.0 = Debug|x64
+		{0CD56909-021A-4656-BAF7-C1183FD6DFF8}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CD56909-021A-4656-BAF7-C1183FD6DFF8}.Debug|x86.Build.0 = Debug|Win32
+		{0CD56909-021A-4656-BAF7-C1183FD6DFF8}.Release|x64.ActiveCfg = Release|x64
+		{0CD56909-021A-4656-BAF7-C1183FD6DFF8}.Release|x64.Build.0 = Release|x64
+		{0CD56909-021A-4656-BAF7-C1183FD6DFF8}.Release|x86.ActiveCfg = Release|Win32
+		{0CD56909-021A-4656-BAF7-C1183FD6DFF8}.Release|x86.Build.0 = Release|Win32
+		{1D47BD78-BB1F-4F86-AF95-5FA67ABBADA2}.Debug|x64.ActiveCfg = Debug|x64
+		{1D47BD78-BB1F-4F86-AF95-5FA67ABBADA2}.Debug|x64.Build.0 = Debug|x64
+		{1D47BD78-BB1F-4F86-AF95-5FA67ABBADA2}.Debug|x86.ActiveCfg = Debug|Win32
+		{1D47BD78-BB1F-4F86-AF95-5FA67ABBADA2}.Debug|x86.Build.0 = Debug|Win32
+		{1D47BD78-BB1F-4F86-AF95-5FA67ABBADA2}.Release|x64.ActiveCfg = Release|x64
+		{1D47BD78-BB1F-4F86-AF95-5FA67ABBADA2}.Release|x64.Build.0 = Release|x64
+		{1D47BD78-BB1F-4F86-AF95-5FA67ABBADA2}.Release|x86.ActiveCfg = Release|Win32
+		{1D47BD78-BB1F-4F86-AF95-5FA67ABBADA2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CD56909-021A-4656-BAF7-C1183FD6DFF8} = {F38A0016-8683-4DD5-9FBE-37365FBC677D}
+		{9D250993-4A3A-45EB-85D0-375A60F83A50} = {68582C54-2537-4ABF-A712-B84DD4CF4446}
+		{1D47BD78-BB1F-4F86-AF95-5FA67ABBADA2} = {6177B332-5941-4C28-A0A2-E09338D6D737}
+		{7D3DA20A-614B-4B21-A656-661DE74DE6CF} = {68582C54-2537-4ABF-A712-B84DD4CF4446}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0946FFBE-E9ED-4ACD-9B64-B4E691A0B17F}
+	EndGlobalSection
+EndGlobal
